@@ -1,2 +1,1 @@
-# progect_edu
-iTalent
+# progect_edu.github.io
