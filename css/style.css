@@ -1,0 +1,302 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap");
+button {
+  height: 40px;
+  background-color: #ff6633;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #ffffff;
+  border: 1px #ff6633 solid;
+  border-radius: 10px;
+  width: 200px;
+}
+
+a:hover, a:active, a:visit {
+  outline: none;
+  text-decoration: none;
+}
+
+button:hover {
+  background-color: #ffffff;
+  color: #ff6633;
+}
+
+button:link, button:alink {
+  text-decoration: none;
+  outline: none;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+main {
+  height: 100vh;
+  min-height: 600px;
+  background-color: #000000;
+  background: url("../images/top.jpg") no-repeat;
+  background-position: right;
+  background-size: cover;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80vw;
+  height: 15vh;
+  margin: auto;
+  color: #ff6633;
+}
+
+.header .logo-text {
+  width: 30vw;
+  font-size: 3vw;
+  font-weight: 900;
+}
+
+.header .nav ul {
+  list-style: none;
+}
+
+.header .nav li {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-right: 20px;
+}
+
+.header .nav li a {
+  text-decoration: none;
+  font-size: 1vw;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.header .nav li a:hover {
+  color: #ff6633;
+  border: 1px solid #ff6633;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.zagolovok {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 85vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ff6633;
+  text-shadow: 2px 2px 3px #ffffff;
+}
+
+.zagolovok .text-zag {
+  font-size: 3vw;
+  text-align: center;
+}
+
+.zagolovok .text-zag button:hover {
+  background-color: #ffffff;
+  color: #ff6633;
+}
+
+section {
+  width: 80vw;
+  margin: auto;
+  background-color: #f7f7f7;
+}
+
+section .about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+section .img-about {
+  display: inline-block;
+  height: 50vh;
+  margin-top: 20px;
+}
+
+section .text-about {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+section .text-about h2 {
+  text-align: center;
+}
+
+section .btn-about {
+  float: right;
+  margin-right: 20px;
+}
+
+section .img-about {
+  width: 65vw;
+}
+
+section .img-about img {
+  max-width: 100%;
+}
+
+section .photo {
+  display: inline-block;
+  margin-top: -5vh;
+}
+
+section .photo img {
+  max-width: 100%;
+}
+
+section .photo .two {
+  margin-left: 10px;
+}
+
+section .photo-tast {
+  margin: 10px;
+}
+
+section .photo-tast img {
+  max-width: 45%;
+  display: inline-block;
+}
+
+section .reserv-events {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+section .reserv-events .reservation, section .reserv-events .events {
+  display: inline-block;
+  width: 45vw;
+  height: 500px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 2px 2px 2px  #d5d5d5;
+          box-shadow: 2px 2px 2px  #d5d5d5;
+  margin: 10px;
+}
+
+section .reserv-events .reservation h2, section .reserv-events .events h2 {
+  text-align: center;
+  font-weight: 800;
+}
+
+section .reserv-events .form-reserv, section .reserv-events .btn-reserv {
+  width: 90%;
+  border-radius: 5px;
+  padding: 25px;
+  margin: 5px;
+}
+
+section .reserv-events .form-reserv {
+  background-color: #f7f7f7;
+  border: 1px solid #d5d5d5;
+}
+
+section .reserv-events .btn-reserv {
+  background-color: #ff6633;
+  text-transform: uppercase;
+  border: 1px solid #ff6633;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+section .reserv-events .events .consert {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+section .reserv-events .events .consert .img-events, section .reserv-events .events .consert .text-events {
+  display: inline-block;
+}
+
+section .reserv-events .events .consert .img-events {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+section .reserv-events .events .consert .img-events img {
+  width: 100px;
+  border-radius: 100px;
+}
+
+section .reserv-events .events .consert .text-events {
+  margin-left: 15px;
+  padding: 2px;
+}
+
+section .reserv-events .events .consert .text-events h3 {
+  color: #ff6633;
+  text-transform: capitalize;
+}
+
+section .reserv-events .events .consert .text-events p {
+  font-size: 1vw;
+}
+
+footer {
+  background-color: #222222;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 62vh;
+  color: #ffffff;
+}
+
+footer h1 {
+  color: #ff6633;
+}
+
+footer .h-footer, footer .m-footer, footer .visit-footer {
+  display: inline-block;
+  margin: 1% 7%;
+  width: 20%;
+}
+
+footer .m-footer a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+footer .m-footer a:hover {
+  color: #ff6633;
+}
+
+footer .visit-footer a {
+  text-align: center;
+  width: 48px;
+  height: 48px;
+  float: left;
+  background: #fff;
+  border: 1px solid #ccc;
+  -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15), inset 0 0 50px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15), inset 0 0 50px rgba(0, 0, 0, 0.1);
+  border-radius: 24px;
+  margin: 0 10px 10px 0;
+  padding: 6px;
+  color: #000;
+}
+
+footer .visit-footer a:hover {
+  background: #c4302b;
+  color: #fff;
+}
+/*# sourceMappingURL=style.css.map */

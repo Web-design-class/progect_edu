@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
+
+$text: #ffffff
+$h-text: #ff6633
+$btn-color: #ff6633
+
+button 
+    height: 40px
+    background-color: $h-text
+    text-transform: uppercase
+    font-weight: 600
+    color: $text
+    border: 1px $h-text solid
+    border-radius: 10px
+    width: 200px
+a:hover, a:active, a:visit
+    outline: none
+    text-decoration: none
+button:hover 
+    background-color: $text
+    color: $h-text
+button:link, button:alink 
+    text-decoration: none
+    outline: none
+*
+    box-sizing: border-box
+body
+    margin: 0
+    font-family: 'Roboto Condensed', sans-serif
+main
+    height: 100vh
+    min-height: 600px
+    background-color: #000000
+    background: url("../images/top.jpg") no-repeat
+    background-position: right
+    background-size: cover
+.header
+    display: flex
+    align-items: center
+    width: 80vw
+    height: 15vh
+    margin: auto
+    color: $h-text 
+    .logo-text
+        width: 30vw
+        font-size: 3vw
+        font-weight: 900
+    .nav 
+        ul 
+            list-style: none
+        li 
+            display: inline-flex
+            margin-right: 20px
+            a 
+                text-decoration: none
+                font-size: 1vw
+                text-transform: uppercase
+                color: $text
+            a:hover 
+                color: $h-text
+                border: 1px solid $h-text
+                border-radius: 5px
+                padding: 5px
+.zagolovok 
+    display: flex
+    height: 85vh
+    justify-content: center
+    align-items: center
+    color: $h-text
+    text-shadow: 2px 2px 3px $text
+    .text-zag
+        font-size: 3vw
+        text-align: center
+        button:hover 
+            background-color: $text
+            color: $h-text
+section 
+    width: 80vw
+    margin: auto
+    background-color: #f7f7f7
+    .about
+        display: flex
+    .text-about
+    .img-about
+        display: inline-block
+        height: 50vh
+        margin-top: 20px
+    .text-about
+        align-self: center
+        h2
+            text-align: center
+    .btn-about 
+        float: right
+        margin-right: 20px
+    .img-about 
+        width: 65vw
+        img
+            max-width: 100%
+    .photo
+        display: inline-block
+        margin-top: -5vh
+        img
+            max-width: 100%
+        .two
+            margin-left: 10px
+    .photo-tast
+        margin: 10px
+        img
+            max-width: 45%
+            display: inline-block
+    .reserv-events
+        display: flex
+        .reservation, .events
+            display: inline-block
+            width: 45vw
+            height: 500px
+            background-color: $text
+            box-shadow: 2px 2px 2px  #d5d5d5
+            margin: 10px
+            h2 
+                text-align: center
+                font-weight: 800
+        .form-reserv, .btn-reserv
+            width: 90%
+            border-radius: 5px
+            padding: 25px
+            margin: 5px
+        .form-reserv
+            background-color: #f7f7f7
+            border: 1px solid #d5d5d5
+        .btn-reserv
+            background-color: $h-text
+            text-transform: uppercase
+            border: 1px solid $h-text
+            font-weight: 600
+            color: $text
+        .events
+            .consert
+                display: flex
+                .img-events, .text-events
+                    display: inline-block
+                .img-events
+                     align-self: center
+                .img-events img
+                    width: 100px
+                    border-radius: 100px
+                .text-events
+                    margin-left: 15px
+                    padding: 2px
+                    h3 
+                        color: $h-text
+                        text-transform: capitalize
+                    p 
+                        font-size: 1vw
+footer 
+    background-color: #222222
+    display: flex
+    height: 62vh
+    color: $text
+    h1 
+        color: $h-text
+    .h-footer, .m-footer, .visit-footer
+        display: inline-block
+        margin: 1% 7%
+        width: 20%
+    .m-footer a 
+        text-decoration: none
+        color: $text
+    .m-footer a:hover 
+        color: $h-text
+    .visit-footer a 
+        text-align: center
+        width: 48px
+        height: 48px
+        float: left
+        background: #fff
+        border: 1px solid #ccc
+        box-shadow: 0 2px 4px rgba(0,0,0,0.15), inset 0 0 50px rgba(0,0,0,0.1)
+        border-radius: 24px
+        margin: 0 10px 10px 0
+        padding: 6px
+        color: #000
+    .visit-footer a:hover 
+        background: #c4302b; 
+        color: #fff
